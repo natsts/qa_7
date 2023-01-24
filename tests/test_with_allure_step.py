@@ -10,7 +10,6 @@ from allure_commons.types import AttachmentType
 @allure.feature("Issue in repository")
 @allure.story("Issue 'Issue for allure' has in repository")
 @allure.link("https://github.com", name="Testing")
-
 def test_with_allure_step(size_browser):
     with allure.step('Ореn general page'):
         browser.open('https://github.com')

@@ -10,7 +10,6 @@ from allure_commons.types import AttachmentType
 @allure.feature("Issue in repository")
 @allure.story("Issue 'Issue for allure' has in repository")
 @allure.link("https://github.com", name="Testing")
-
 def test_with_decorators(size_browser):
     open_general_page()
     search_repository('natsts/qa_7')
